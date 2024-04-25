@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+
+     <!-- slick css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+
+     <!-- css -->
+     <link rel="stylesheet" href="./css/reset.css">
+     <link rel="stylesheet" href="./css/common.css">
+     <link rel="stylesheet" href="./css/style.css">
+ 
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <div class="singleProduct">
+        <header>
+            <img src="./images/menu_Icon_left.svg" alt="menu_Icon_left" class="menu_Icon_left">
+            <h2>Product Details</h2>
+            <img src="./images/menu_Icon_right.svg" alt="menu_Icon_right" class="menu_Icon_right">
+        </header>
+
+        <main>
+            <h2>Modern T-shirt for Women</h2>
+            <div class="rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+
+            <div class="single_Product">
+                <div>
+                    <img src="./images/product_detail_01.jpg" alt="slide01">
+                </div>
+                <div>
+                    <img src="./images/product_detail_02.jpg" alt="slide01">
+                </div>
+                <div>
+                    <img src="./images/product_detail_01.jpg" alt="slide01">
+                </div>
+                <div>
+                    <img src="./images/product_detail_02.jpg" alt="slide01">
+                </div>
+            </div>
+
+            <div class="details_info">
+                <h3>$21.99</h3>
+                <p>Look stunning with this modern t-shirt. Its comfortable and attractive.</p>
+            </div>
+
+            <form action="#">
+                <label for="color">colors</label>
+                <select name="color" id="color">
+                    <option value="">colors</option>
+                    <option value="blue">blue</option>
+                    <option value="red">red</option>
+                    <option value="silver">silver</option>
+                </select>
+
+                <label for="size">size</label>
+                <select name="size" id="size"><!-- for, id의 이름이 같아야함을 기억하기 -->
+                    <option value="">size</option>
+                    <option value="XL">XL</option>
+                    <option value="L">L</option>
+                    <option value="M">M</option>
+                    <option value="S">S</option>
+                    <option value="XS">XS</option>
+                </select>
+                <input type="submit" value="Add to Cart" class="btn">
+            </form>
+        </main>
+
+    </div>
+
+
+    <!-- 📢http://를 꼭 붙여야함!!!! -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script><!-- 📢jquery가 제일먼저 올라와야함 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script><!-- cdn파일에서 가져옴 -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
