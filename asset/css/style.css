@@ -149,9 +149,9 @@ z-index: 100;}
 .Categories .slick-dots li{display: inline-block;margin-right: 10px;}
 .Categories .slick-dots li:last-child{margin-right: 0;}
 .Categories .slick-dots li button{
-    border: 3px solid #7E57C2;
+    width: 13px; height: 13px;
+    border:3px solid #7E57C2;
     border-radius: 50%;
-    width: 19px;height: 19px;
     box-sizing: border-box;
     background: none;
     font-size: 0; /* 글자 보이는거 방지 */
@@ -169,7 +169,7 @@ z-index: 100;}
 .Categories .page{position: absolute;top: 55px;left: 15px;}
 
 /* singleProduct */
-.singleProduct{height: 100vh;overflow: hidden;}
+.singleProduct{background-color: #fff; height: 100vh;overflow: hidden;}
 
 .singleProduct main{padding: 25px 25px 0;}
 .singleProduct main>h2{color: #000;}
@@ -180,8 +180,10 @@ z-index: 100;}
 .single_Product img{width: 100%;}
 .single_Product .slick-slide{padding-right: 25px;}
 
-.single_Product .slick-dots{display: flex;}
-.single_Product .slick-dots button{
+.single_Product .slick-dots{ 
+    display: flex; gap:5px; justify-content: center;
+}
+.single_Product .slick-dots li button{
     font-size: 0; width: 7px; height: 7px;
     border-radius: 50%;
     border: 1px solid #7E57C2;
